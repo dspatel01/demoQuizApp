@@ -65,7 +65,7 @@ const HtmlQuestionPage = (props) => {
             </div>
 
             <div >
-                <button style={startButton}> Start</button>
+                <button style={startButton}> Start test</button>
                 <button style={finishButton}>Finish test</button>
             </div>
 
