@@ -1,0 +1,53 @@
+:root {
+    --one: #FEF6E4;
+    --two: #F3D2C1;
+    --three: #8BD3DD;
+    --foure: #F582AE;
+    --FIVE: #001858;
+}
+
+
+.card {
+    display: flex;
+    width: 95%;
+    margin: 25px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card .card-item {
+    width: 300px;
+    padding: 5px 15px;
+    background-color: var(--three);
+    margin-bottom: 15px;
+}
+
+.card .card-item .exam-title {
+    background-color: var(--foure);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.card .card-item ul {
+    margin-top: 20px;
+}
+
+.card .card-item ul li {
+    list-style: none;
+    padding: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.card .card-item ul li:hover {
+    background-color: var(--two);
+    border: none;
+}
+
+.card .card-item ul a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
